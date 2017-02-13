@@ -1,0 +1,10 @@
+C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.Domain\bin\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.Domain\bin\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.Domain\obj\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.Domain\obj\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.Domain\obj\Debug\GYM.Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain\bin\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain\bin\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain\obj\Debug\GYM.Domain.csprojResolveAssemblyReference.cache
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain\obj\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain\obj\Debug\GYM.Domain.pdb

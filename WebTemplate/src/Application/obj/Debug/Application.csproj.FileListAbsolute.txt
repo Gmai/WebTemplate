@@ -1,0 +1,13 @@
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\Application.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\Application.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\AutoMapper.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\GYM.Infra.Data.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\EntityFramework.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\GYM.Infra.Data.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\AutoMapper.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\bin\Debug\EntityFramework.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\obj\Debug\Application.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\Application\obj\Debug\Application.pdb
