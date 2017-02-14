@@ -8,29 +8,40 @@ using System.Collections.Generic;
 
 namespace Application
 {
-    public class HeroAppService : IHeroAppService 
+  public class HeroAppService : IHeroAppService
+  {
+    private readonly HeroRepository rp;
+
+    public HeroAppService()
     {
-        private readonly HeroRepository rp;
-
-        public HeroAppService() {
-            rp = new HeroRepository();
-        }
-
-        public HeroVM Add(HeroVM heroVm)
-        {
-            var hero = Mapper.Map<HeroVM, Hero>(heroVm);
-            rp.Add(hero);
-            return heroVm;
-        }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<HeroVM> GetList()
-        {
-            return Mapper.Map<IEnumerable<Hero>,IEnumerable<HeroVM>>(rp.GetAll());
-        }
+      rp = new HeroRepository();
     }
+
+    public HeroVM Add(HeroVM heroVm)
+    {
+      var hero = Mapper.Map<HeroVM, Hero>(heroVm);
+      rp.Add(hero);
+      return heroVm;
+    }
+
+    public void Dispose()
+    {
+      rp.Dispose();
+      GC.SuppressFinalize(this);
+    }
+
+    public IEnumerable<HeroVM> GetList()
+    {
+      return Mapper.Map<IEnumerable<Hero>, IEnumerable<HeroVM>>(rp.GetAll());
+    }
+
+    public HeroVM GetHeroByID(Guid id)
+    {
+      return Mapper.Map<Hero, HeroVM>(rp.GetById(id));
+    }
+
+    public void Delete(Guid id) {
+      rp.Remove(id);
+    }
+  }
 }
