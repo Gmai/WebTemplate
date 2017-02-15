@@ -135,7 +135,6 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\System.Web.WebPag
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\System.Web.WebPages.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\System.Web.WebPages.Razor.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\WebGrease.dll
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Infra.Data.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Domain.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Application.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\AutoMapper.xml
@@ -168,5 +167,4 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Se
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Security.Google.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Infra.Data.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Domain.pdb

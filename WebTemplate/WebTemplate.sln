@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EE7B478D-E9A1-4C72-AC6A-C104072D9F06}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCulting", "CrossCulting", "{8744E22F-F1EB-4EE6-A030-6D439BCB5D70}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{8744E22F-F1EB-4EE6-A030-6D439BCB5D70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.MvcSite.Tests", "tests\GYM.MvcSite.Tests\GYM.MvcSite.Tests.csproj", "{B2D3216E-5DC1-4CA2-BB1C-7E9ED6974C84}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.Domain", "src\GYM.Domain\GYM.Domain.csproj", "{94447ED8-9BF5-4065-A5F6-4ADD52831E6B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.Infra.Data", "src\GYM.Infra.Data\GYM.Infra.Data.csproj", "{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters", "GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters.csproj", "{03F7BCBC-69E8-4A37-855C-1EDE0664FA45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F7BCBC-69E8-4A37-855C-1EDE0664FA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F7BCBC-69E8-4A37-855C-1EDE0664FA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F7BCBC-69E8-4A37-855C-1EDE0664FA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F7BCBC-69E8-4A37-855C-1EDE0664FA45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +71,6 @@ Global
 		{40A051E4-EDBF-4E58-A727-77739A7D60D3} = {C33EA139-B638-4F33-A01F-EC299F07D0E9}
 		{94447ED8-9BF5-4065-A5F6-4ADD52831E6B} = {1FE7B3F0-149F-4567-A273-5D701F6E3764}
 		{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD} = {EE7B478D-E9A1-4C72-AC6A-C104072D9F06}
+		{03F7BCBC-69E8-4A37-855C-1EDE0664FA45} = {8744E22F-F1EB-4EE6-A030-6D439BCB5D70}
 	EndGlobalSection
 EndGlobal

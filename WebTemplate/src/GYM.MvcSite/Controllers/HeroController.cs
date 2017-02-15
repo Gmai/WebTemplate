@@ -1,4 +1,5 @@
 ﻿using Application;
+using Application.Interfaces;
 using Application.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -9,24 +10,27 @@ using System.Web.Mvc;
 
 namespace GYM.MvcSite.Controllers
 {
+  [RoutePrefix("Admin-Heroes")]
   public class HeroController : Controller
   {
 
-    private readonly HeroAppService _heroAppService;
+    private readonly IHeroAppService _heroAppService;
 
 
-    public HeroController()
+    public HeroController(IHeroAppService heroAppService)
     {
-      _heroAppService = new HeroAppService();
+      _heroAppService = heroAppService;
     }
 
     // GET: Hero
+    [Route("List")]
     public ActionResult Index()
     {
       return View(_heroAppService.GetList());
     }
 
     // GET: Hero/Details/5
+    [Route("Details/{id:guid}")]
     public ActionResult Details(Guid? id)
     {
       if (id == null)
@@ -124,7 +128,7 @@ namespace GYM.MvcSite.Controllers
           return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
         }
 
-        _heroAppService.Delete(id.Value);
+        _heroAppService.Remove(id.Value);
         return RedirectToAction("Index");
       }
       catch
