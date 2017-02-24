@@ -168,3 +168,16 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Se
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.MvcSite.Infrastructure.CrossCutting.IoC.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.Integration.Web.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\WebActivator.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Infra.Data.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.MvcSite.Infrastructure.CrossCutting.IoC.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.Integration.Web.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.MvcSite\bin\GYM.Infra.Data.pdb

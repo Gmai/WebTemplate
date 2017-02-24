@@ -1,6 +1,6 @@
-﻿using Application;
-using Application.Interfaces;
-using Application.ViewModel;
+﻿using GYM.Application;
+using GYM.Application.Interfaces;
+using GYM.Application.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
-namespace GYM.MvcSite.Controllers
+namespace GYM.Presentation.MvcSite.Controllers
 {
   [RoutePrefix("Admin-Heroes")]
   public class HeroController : Controller

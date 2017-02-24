@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using GYM.MvcSite.Models;
+using GYM.Presentation.MvcSite.Models;
 
-namespace GYM.MvcSite
+namespace GYM.Presentation.MvcSite
 {
     public class EmailService : IIdentityMessageService
     {

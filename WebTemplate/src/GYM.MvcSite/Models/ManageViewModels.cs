@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace GYM.MvcSite.Models
+namespace GYM.Presentation.MvcSite.Models
 {
     public class IndexViewModel
     {

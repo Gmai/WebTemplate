@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace GYM.MvcSite.Controllers
+namespace GYM.Presentation.MvcSite.Controllers
 {
   [RoutePrefix("")]
   public class HomeController : Controller

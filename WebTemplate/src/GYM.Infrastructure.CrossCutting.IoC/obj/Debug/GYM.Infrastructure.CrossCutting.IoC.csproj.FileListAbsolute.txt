@@ -1,0 +1,17 @@
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.CrossCutting.IoC.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.CrossCutting.IoC.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Application.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.Data.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Application.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.Data.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.pdb

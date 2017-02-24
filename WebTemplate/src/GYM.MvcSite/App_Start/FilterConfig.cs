@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace GYM.MvcSite
+namespace GYM.Presentation.MvcSite
 {
     public class FilterConfig
     {

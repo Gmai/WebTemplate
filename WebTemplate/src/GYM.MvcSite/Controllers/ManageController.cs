@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using GYM.MvcSite.Models;
+using GYM.Presentation.MvcSite.Models;
 
-namespace GYM.MvcSite.Controllers
+namespace GYM.Presentation.MvcSite.Controllers
 {
     [Authorize]
     public class ManageController : Controller
@@ -18,12 +18,6 @@ namespace GYM.MvcSite.Controllers
 
         public ManageController()
         {
-        }
-
-        public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
-        {
-            UserManager = userManager;
-            SignInManager = signInManager;
         }
 
         public ApplicationSignInManager SignInManager

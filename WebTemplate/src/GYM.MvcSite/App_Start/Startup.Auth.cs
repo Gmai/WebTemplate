@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using GYM.MvcSite.Models;
+using GYM.Presentation.MvcSite.Models;
 
-namespace GYM.MvcSite
+namespace GYM.Presentation.MvcSite
 {
     public partial class Startup
     {

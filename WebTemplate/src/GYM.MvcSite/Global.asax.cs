@@ -1,4 +1,4 @@
-﻿using Application.AutoMapper;
+﻿using GYM.Application.AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace GYM.MvcSite
+namespace GYM.Presentation.MvcSite
 {
     public class MvcApplication : System.Web.HttpApplication
     {

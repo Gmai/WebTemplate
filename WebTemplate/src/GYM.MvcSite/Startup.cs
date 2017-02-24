@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(GYM.MvcSite.Startup))]
-namespace GYM.MvcSite
+[assembly: OwinStartupAttribute(typeof(GYM.Presentation.MvcSite.Startup))]
+namespace GYM.Presentation.MvcSite
 {
     public partial class Startup
     {
