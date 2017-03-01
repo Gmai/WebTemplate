@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+  First Name:
+  <input type="text" ng-model="fname" />
+  <br /> Last Name:
+  <input type="text" ng-model="lname" />
+  <br /> Result: {{fname+' '+lname}}
+
+<div ng-controller="HeroesCtrl">
+  <div>
+    <h2 align="center">Angular JS Basic Example</h2>
+    <h5 align="center">Heroes List</h5>
+    <table border="1" cellpadding="10" align="center">
+      <tr>
+        <td>
+          Employee Id
+        </td>
+        <td>
+          Employee Name
+        </td>
+        <td>
+          Address
+        </td>
+      </tr>
+      <tr ng-repeat="hero in heroes">
+        <td>
+          {{hero.heroId}}
+        </td>
+        <td>
+          {{hero.name}}
+        </td>
+        <td>
+          {{hero.createdOn}}
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

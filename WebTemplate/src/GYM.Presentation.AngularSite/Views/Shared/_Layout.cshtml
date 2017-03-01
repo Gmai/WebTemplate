@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html ng-app="AngularApp">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>@ViewBag.Title</title>
+  @Styles.Render("~/Content/css")
+  @Scripts.Render("~/bundles/modernizr")
+</head>
+<body >
+  @RenderBody()
+
+  @Scripts.Render("~/bundles/js")
+  @Scripts.Render("~/bundles/bootstrap")
+  @RenderSection("scripts", required: false)
+  <script>
+    var app = angular.module("AngularApp", []);
+    app.service("HeroService", function ($http) {
+      this.getHero = function () {
+        debugger;
+        return $http.get("@Url.Action("HeroesList", "Test")");
+      };
+    });
+    app.controller("HeroesCtrl", function ($scope, HeroService) {
+
+      GetAllHeroes();
+
+      function GetAllHeroes() {
+
+        debugger;
+        var getAllHeroes = HeroService.getHero();
+        getAllHeroes.then(function (emp) {
+          $scope.heroes = emp.data;
+        }, function () {
+          alert('Data not found');
+        });
+      }
+    });
+  </script>
+</body>
+</html>
