@@ -11,6 +11,10 @@ namespace GYM.Domain.Entities
       itens = new List<Item>();
     }
 
+    public bool IsValid() {
+      return true;
+    }
+
     public Guid heroId { get; set; }
     public string name { get; set; }
     public DateTime createdOn { get; set; }

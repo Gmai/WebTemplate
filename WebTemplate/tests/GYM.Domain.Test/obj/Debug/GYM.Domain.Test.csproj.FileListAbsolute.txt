@@ -1,0 +1,10 @@
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\GYM.Domain.Test.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\GYM.Domain.Test.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\GYM.Domain.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\GYM.Domain.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\obj\Debug\GYM.Domain.Test.csprojResolveAssemblyReference.cache
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\obj\Debug\GYM.Domain.Test.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\obj\Debug\GYM.Domain.Test.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\Rhino.Mocks.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Domain.Test\GYM.Domain.Test\bin\Debug\Rhino.Mocks.xml

@@ -16,6 +16,8 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.MvcSite.Infrastructure.CrossCutti
 C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.MvcSite.Infrastructure.CrossCutting.MvcFilters.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\System.Web.Helpers.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.dll
@@ -30,7 +32,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.M
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.dll
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\bin\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.MvcFilters\obj\Debug\GYM.Infrastructure.CrossCutting.MvcFilters.pdb
