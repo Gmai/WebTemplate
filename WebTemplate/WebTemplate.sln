@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.Services.WebApi", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.Presentation.AngularSite", "src\GYM.Presentation.AngularSite\GYM.Presentation.AngularSite.csproj", "{7186817C-B695-4F0E-ABE7-6DDE838112A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GYM.Infrastructure.CrossCutting.Utils", "src\GYM.Infrastructure.CrossCutting.Utils\GYM.Infrastructure.CrossCutting.Utils.csproj", "{5817CD35-2FBF-49D7-9613-22A7C496D09A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{7186817C-B695-4F0E-ABE7-6DDE838112A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7186817C-B695-4F0E-ABE7-6DDE838112A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7186817C-B695-4F0E-ABE7-6DDE838112A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5817CD35-2FBF-49D7-9613-22A7C496D09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5817CD35-2FBF-49D7-9613-22A7C496D09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5817CD35-2FBF-49D7-9613-22A7C496D09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5817CD35-2FBF-49D7-9613-22A7C496D09A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,5 +106,6 @@ Global
 		{B2D3216E-5DC1-4CA2-BB1C-7E9ED6974C84} = {EEC0C57B-139A-4805-853C-A6CA74152D8B}
 		{72F6F7F5-0A5B-40C7-8328-7F2572A761ED} = {9B9924C3-9BEA-46B1-BD71-3384BE4DEFA8}
 		{7186817C-B695-4F0E-ABE7-6DDE838112A5} = {EEC0C57B-139A-4805-853C-A6CA74152D8B}
+		{5817CD35-2FBF-49D7-9613-22A7C496D09A} = {8744E22F-F1EB-4EE6-A030-6D439BCB5D70}
 	EndGlobalSection
 EndGlobal

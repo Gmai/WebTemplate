@@ -1,0 +1,106 @@
+﻿
+@{
+  ViewBag.Title = "Index";
+}
+
+<h2>Heroes</h2>
+
+<hr />
+<div ng-controller="HeroesCtrl">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Id</td>
+        <td>Created</td>
+        <td>Details</td>
+        <td>Delete</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="hero in heroes">
+        <td> {{hero.name}} </td>
+        <td> {{hero.heroId}} </td>
+        <td> {{hero.createdOn.slice(6, -2) | date: 'dd/MM/yyyy HH:mm:ss'}} </td>
+        <td>
+          <button class="btn" ng-click="Details(hero.heroId)" data-toggle="tooltip" title="Go to Hero">=></button>
+        </td>
+        <td>
+          <button class="btn btn-danger" ng-click="Delete(hero)" data-toggle="tooltip" title="Delete">X</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <input type="text" required ng-model="hero.name" />
+  <button ng-click="Add(hero)" ng-disabled="!hero.name">New Hero</button>
+</div>
+
+@section scripts{
+  <script>
+    var app = angular.module("AngularApp", []);
+
+    app.service("HeroService", function ($http) {
+      this.getHero = function () {
+        return $http.get("@Url.Action("List", "Heroes")");
+      };
+
+      this.addHero = function (hero) {
+        return $http.post("@Url.Action("Create", "Heroes")",hero);
+      };
+
+      this.delHero = function (heroId) {
+        return $http.post("@Url.Action("Delete", "Heroes")", { id: heroId });
+      };
+
+
+    });
+
+    app.controller("HeroesCtrl", function ($window,$scope, HeroService) {
+
+      GetAllHeroes();
+
+      function GetAllHeroes() {
+        var getAllHeroes = HeroService.getHero();
+        getAllHeroes.then(function (emp) {
+          $scope.heroes = emp.data;
+        }, function () {
+          alert('Data not found');
+        });
+      }
+
+      $scope.Add = function (heroData) {
+        var hero = { name: heroData.name };
+        HeroService.addHero(hero)
+          .then(function (result) {
+            if (result.data.success) {
+              $scope.heroes.push(result.data.hero);
+              delete $scope.hero;
+            } else {
+              console.log(data);
+            }
+          }, function (result) {
+            console.log(result.data);
+          });
+      }
+
+      $scope.Delete = function (heroData) {
+        HeroService.delHero(heroData.heroId)
+          .then(function (result) {
+            if (result.data.success) {
+              GetAllHeroes();
+            } else {
+              console.log(data);
+            }
+          }, function (result) {
+            console.log(result.data);
+          });
+      }
+
+      $scope.Details = function (heroId) {
+        $window.location.href = '@Url.Action("Details","Heroes")?id='+heroId;
+      }
+
+    });
+  </script>
+}

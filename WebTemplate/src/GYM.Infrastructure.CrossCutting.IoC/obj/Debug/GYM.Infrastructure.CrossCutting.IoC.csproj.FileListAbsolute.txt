@@ -16,3 +16,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.I
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.csprojResolveAssemblyReference.cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\obj\Debug\GYM.Infrastructure.CrossCutting.IoC.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.IoC\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.pdb

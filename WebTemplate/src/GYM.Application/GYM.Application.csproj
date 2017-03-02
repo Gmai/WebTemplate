@@ -60,6 +60,10 @@
       <Project>{94447ed8-9bf5-4065-a5f6-4add52831e6b}</Project>
       <Name>GYM.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GYM.Infrastructure.CrossCutting.Utils\GYM.Infrastructure.CrossCutting.Utils.csproj">
+      <Project>{5817cd35-2fbf-49d7-9613-22a7c496d09a}</Project>
+      <Name>GYM.Infrastructure.CrossCutting.Utils</Name>
+    </ProjectReference>
     <ProjectReference Include="..\GYM.Infrastructure.Data\GYM.Infrastructure.Data.csproj">
       <Project>{7DAE1A9F-F9CA-4B88-BCFA-496E36FB2CDD}</Project>
       <Name>GYM.Infrastructure.Data</Name>

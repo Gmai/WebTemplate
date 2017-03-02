@@ -36,7 +36,7 @@ namespace GYM.Infrastructure.Data.Repository
       return dbSet.Where(predicate);
     }
 
-    public IEnumerable<T> GetAll()
+    public virtual IEnumerable<T> GetAll()
     {
       return dbSet.ToList();
     }

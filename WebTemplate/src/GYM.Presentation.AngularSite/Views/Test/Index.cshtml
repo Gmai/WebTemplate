@@ -39,3 +39,30 @@
     </table>
   </div>
 </div>
+
+@section scripts{
+  <script>
+    var app = angular.module("AngularApp", []);
+    app.service("HeroService", function ($http) {
+      this.getHero = function () {
+        debugger;
+        return $http.get("@Url.Action("HeroesList", "Test")");
+      };
+    });
+    app.controller("HeroesCtrl", function ($scope, HeroService) {
+
+      GetAllHeroes();
+
+      function GetAllHeroes() {
+
+        debugger;
+        var getAllHeroes = HeroService.getHero();
+        getAllHeroes.then(function (emp) {
+          $scope.heroes = emp.data;
+        }, function () {
+          alert('Data not found');
+        });
+      }
+    });
+</script>
+  }

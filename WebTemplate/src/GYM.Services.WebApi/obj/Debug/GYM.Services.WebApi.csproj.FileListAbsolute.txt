@@ -59,3 +59,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\bin\EntityFra
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\obj\Debug\GYM.Services.WebApi.csprojResolveAssemblyReference.cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\obj\Debug\GYM.Services.WebApi.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\obj\Debug\GYM.Services.WebApi.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\bin\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Services.WebApi\bin\GYM.Infrastructure.CrossCutting.Utils.pdb

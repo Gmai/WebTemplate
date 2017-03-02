@@ -6,6 +6,7 @@ using AutoMapper;
 using System.Collections.Generic;
 using GYM.Domain.Interfaces.Service;
 using GYM.Infrastructure.Data.Interfaces;
+using GYM.Infrastructure.CrossCutting.Utils;
 
 namespace GYM.Application
 {
@@ -22,6 +23,7 @@ namespace GYM.Application
     public HeroVM Add(HeroVM heroVm)
     {
       var hero = Mapper.Map<HeroVM, Hero>(heroVm);
+      ObjectUtils.CheckNullObj(hero);
 
       _uow.BeginTransaction();
       _heroService.Add(hero);
@@ -49,7 +51,9 @@ namespace GYM.Application
 
     public void Remove(Guid id)
     {
+      _uow.BeginTransaction();
       _heroService.Remove(id);
+      _uow.Commit();
     }
   }
 }

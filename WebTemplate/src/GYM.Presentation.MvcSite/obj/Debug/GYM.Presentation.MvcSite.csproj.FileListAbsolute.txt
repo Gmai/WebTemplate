@@ -200,3 +200,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\bin\GYM.
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\obj\Debug\GYM.Presentation.MvcSite.csprojResolveAssemblyReference.cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\obj\Debug\GYM.Presentation.MvcSite.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\obj\Debug\GYM.Presentation.MvcSite.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\bin\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.MvcSite\bin\GYM.Infrastructure.CrossCutting.Utils.pdb

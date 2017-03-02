@@ -177,6 +177,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SimpleInjectorInitializer.cs" />
+    <Compile Include="Controllers\HeroesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
@@ -230,6 +231,8 @@
     <Content Include="Views\Test\Rote1.cshtml" />
     <Content Include="Views\Test\Rote2.cshtml" />
     <Content Include="Views\Test\Rote3.cshtml" />
+    <Content Include="Views\Heroes\Index.cshtml" />
+    <Content Include="Views\Heroes\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

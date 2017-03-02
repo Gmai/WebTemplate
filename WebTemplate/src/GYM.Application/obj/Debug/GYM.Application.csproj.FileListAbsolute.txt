@@ -25,3 +25,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\bin\Debug\EntityF
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\obj\Debug\GYM.Application.csprojResolveAssemblyReference.cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\obj\Debug\GYM.Application.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\obj\Debug\GYM.Application.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Application\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.pdb

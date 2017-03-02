@@ -1,0 +1,4 @@
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.Utils\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.Utils\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.Utils\obj\Debug\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.CrossCutting.Utils\obj\Debug\GYM.Infrastructure.CrossCutting.Utils.pdb

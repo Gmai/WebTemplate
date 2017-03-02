@@ -74,3 +74,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\obj\
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\obj\Debug\GYM.Presentation.AngularSite.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\bin\EntityFramework.SqlServer.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\bin\EntityFramework.SqlServer.xml
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\bin\GYM.Infrastructure.CrossCutting.Utils.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Presentation.AngularSite\bin\GYM.Infrastructure.CrossCutting.Utils.pdb

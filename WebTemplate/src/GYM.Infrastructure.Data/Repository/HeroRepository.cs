@@ -24,5 +24,10 @@ namespace GYM.Infrastructure.Data.Repository
       obj.deletedOn = DateTime.Now;
       Update(obj);
     }
+
+    public override IEnumerable<Hero> GetAll()
+    {
+      return dbSet.Where(x=>x.isDeleted==false).ToList();
+    }
   }
 }
