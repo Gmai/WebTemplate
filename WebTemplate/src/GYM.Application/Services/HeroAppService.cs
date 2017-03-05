@@ -8,7 +8,7 @@ using GYM.Domain.Interfaces.Service;
 using GYM.Infrastructure.Data.Interfaces;
 using GYM.Infrastructure.CrossCutting.Utils;
 
-namespace GYM.Application
+namespace GYM.Application.Services
 {
   public class HeroAppService : IHeroAppService
   {

@@ -7,19 +7,21 @@ namespace GYM.Domain.Entities
   {
     public Hero()
     {
-      heroId = Guid.NewGuid();
-      itens = new List<Item>();
+      HeroId = Guid.NewGuid();
+      Itens = new List<Item>();
     }
 
     public bool IsValid() {
       return true;
     }
 
-    public Guid heroId { get; set; }
-    public string name { get; set; }
-    public DateTime createdOn { get; set; }
-    public virtual ICollection<Item> itens { get; set; }
-    public bool isDeleted { get; set; }
-    public DateTime deletedOn { get; set; }
+    public Guid HeroId { get; set; }
+    public string Name { get; set; }
+    public DateTime CreatedOn { get; set; }
+    public virtual ICollection<Item> Itens { get; set; }
+    public virtual Pet Pet { get; set; }
+    public virtual Guild Guild { get; set; }
+    public bool Deleted { get; set; }
+    public DateTime DeletedOn { get; set; }
   }
 }

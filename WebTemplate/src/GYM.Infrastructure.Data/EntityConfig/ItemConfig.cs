@@ -4,12 +4,15 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace GYM.Infrastructure.Data.EntityConfig
 {
-    public class ItemConfig: EntityTypeConfiguration<Item>
+  public class ItemConfig : EntityTypeConfiguration<Item>
+  {
+    public ItemConfig()
     {
-        public ItemConfig() {
-            HasKey(x => x.itemId);
-            Property(x => x.name).IsRequired().HasMaxLength(20);
-            ToTable("itens");
-        }
+      HasKey(x => x.ItemId);
+      Property(x => x.Name).IsRequired().HasMaxLength(20);
+      Property(x => x.CreatedOn).IsRequired();
+      Property(x => x.DeletedOn).IsRequired();
+      ToTable("Itens");
     }
+  }
 }

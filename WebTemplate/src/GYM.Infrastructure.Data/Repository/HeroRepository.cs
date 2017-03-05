@@ -14,20 +14,20 @@ namespace GYM.Infrastructure.Data.Repository
 
     public IEnumerable<Hero> GetByName(string name)
     {
-      return dbSet.Where(x => x.name == name).ToList();
+      return dbSet.Where(x => x.Name == name).ToList();
     }
 
     public override void Remove(Guid id)
     {
       var obj = dbSet.Find(id);
-      obj.isDeleted = true;
-      obj.deletedOn = DateTime.Now;
+      obj.Deleted = true;
+      obj.DeletedOn = DateTime.Now;
       Update(obj);
     }
 
     public override IEnumerable<Hero> GetAll()
     {
-      return dbSet.Where(x=>x.isDeleted==false).ToList();
+      return dbSet.Where(x=>x.Deleted==false).ToList();
     }
   }
 }

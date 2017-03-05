@@ -9,8 +9,6 @@ namespace GYM.Domain.Interfaces.Repository
 {
   public interface IHeroRepository : IRepository<Hero>
   {
-
     IEnumerable<Hero> GetByName(string name);
-
   }
 }

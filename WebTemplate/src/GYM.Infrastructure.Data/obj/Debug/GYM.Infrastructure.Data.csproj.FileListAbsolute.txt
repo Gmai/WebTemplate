@@ -22,7 +22,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\bin\Debug
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\bin\Debug\EntityFramework.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\obj\Debug\GYM.Infrastructure.Data.csprojResolveAssemblyReference.cache
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\obj\Debug\GYM.Infrastructure.Data.Migrations.firstmigration.resources
-C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\obj\Debug\GYM.Infrastructure.Data.csproj.GenerateResource.Cache
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\obj\Debug\GYM.Infrastructure.Data.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\src\GYM.Infrastructure.Data\obj\Debug\GYM.Infrastructure.Data.pdb

@@ -51,15 +51,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\GymContext.cs" />
+    <Compile Include="EntityConfig\GuildConfig.cs" />
+    <Compile Include="EntityConfig\PetConfig.cs" />
     <Compile Include="EntityConfig\HeroConfig.cs" />
     <Compile Include="EntityConfig\ItemConfig.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
-    <Compile Include="Migrations\201702122336301_first-migration.cs" />
-    <Compile Include="Migrations\201702122336301_first-migration.Designer.cs">
-      <DependentUpon>201702122336301_first-migration.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ItemRepository.cs" />
+    <Compile Include="Repository\PetRepository.cs" />
+    <Compile Include="Repository\GuildRepository.cs" />
     <Compile Include="Repository\HeroRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="UoW\UnitOfWork.cs" />
@@ -75,11 +76,6 @@
       <Project>{94447ed8-9bf5-4065-a5f6-4add52831e6b}</Project>
       <Name>GYM.Domain</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201702122336301_first-migration.resx">
-      <DependentUpon>201702122336301_first-migration.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -28,21 +28,23 @@ namespace GYM.Infrastructure.Data.Context
 
       modelBuilder.Configurations.Add(new HeroConfig());
       modelBuilder.Configurations.Add(new ItemConfig());
+      modelBuilder.Configurations.Add(new GuildConfig());
+      modelBuilder.Configurations.Add(new PetConfig());
 
       base.OnModelCreating(modelBuilder);
     }
 
     public override int SaveChanges()
     {
-      foreach (var entry in ChangeTracker.Entries().Where(x => x.Entity.GetType().GetProperty("createdOn") != null))
+      foreach (var entry in ChangeTracker.Entries().Where(x => x.Entity.GetType().GetProperty("CreatedOn") != null))
       {
         if (entry.State == EntityState.Added)
         {
-          entry.Property("createdOn").CurrentValue = DateTime.Now;
+          entry.Property("CreatedOn").CurrentValue = DateTime.Now;
         }
         if (entry.State == EntityState.Modified)
         {
-          entry.Property("createdOn").IsModified = false;
+          entry.Property("CreatedOn").IsModified = false;
         }
       }
 

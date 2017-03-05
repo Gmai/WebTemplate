@@ -10,6 +10,13 @@ namespace GYM.Application.AutoMapper
     public ViewModelToDomainMappingProfile()
     {
       CreateMap<HeroVM, Hero>();
+      CreateMap<PetVM, Pet>();
+      CreateMap<ItemVM, Item>();
+      CreateMap<GuildVM, Guild>();
     }
   }
 }
+
+
+
+

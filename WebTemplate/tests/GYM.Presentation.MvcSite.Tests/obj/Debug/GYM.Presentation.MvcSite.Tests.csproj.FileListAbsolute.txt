@@ -125,3 +125,5 @@ C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\
 C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\obj\Debug\GYM.Presentation.MvcSite.Tests.pdb
 C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.dll
 C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\bin\Debug\GYM.Infrastructure.CrossCutting.Utils.pdb
+C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Projetos\CSharp\WebTemplate\WebTemplate\tests\GYM.Presentation.MvcSite.Tests\bin\Debug\Newtonsoft.Json.xml

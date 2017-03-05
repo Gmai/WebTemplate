@@ -49,9 +49,17 @@
     <Compile Include="AutoMapper\AutoMapperConfig.cs" />
     <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
-    <Compile Include="HeroAppService.cs" />
+    <Compile Include="Services\ItemAppService.cs" />
+    <Compile Include="Services\PetAppService.cs" />
+    <Compile Include="Services\GuildAppService.cs" />
+    <Compile Include="Services\HeroAppService.cs" />
+    <Compile Include="Interfaces\IItemAppService.cs" />
+    <Compile Include="Interfaces\IPetAppService.cs" />
+    <Compile Include="Interfaces\IGuildAppService.cs" />
     <Compile Include="Interfaces\IHeroAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\GuildVM.cs" />
+    <Compile Include="ViewModel\PetVM.cs" />
     <Compile Include="ViewModel\HeroVM.cs" />
     <Compile Include="ViewModel\ItemVM.cs" />
   </ItemGroup>

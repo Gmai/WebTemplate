@@ -1,56 +1,74 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GYM.Domain.Entities;
 using Rhino.Mocks;
 using GYM.Domain.Interfaces.Repository;
 using System.Linq;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 namespace GYM.Domain.Test.Entities
 {
-  [TestClass]
+  [TestFixture]
   public class HeroTest
   {
-    [TestMethod]
+    [Test]
     public void Verify_If_Valid()
     {
       Hero hero = new Hero();
       Assert.IsTrue(hero.IsValid());
     }
 
-    [TestMethod]
+    [Test]
+    public void Try_to_insert()
+    {
+      Hero hero = new Hero()
+      {
+        Name = "SHOGUNMOCK",
+        CreatedOn = DateTime.Now,
+        Deleted = false
+      };
+
+      var stubRepo = MockRepository.GenerateStub<IHeroRepository>();
+      stubRepo.Stub(x => x.Add(hero)).Return(hero);
+
+      var heroInserted = stubRepo.Add(hero);
+
+      Assert.IsTrue(heroInserted.HeroId!=null);
+    }
+
+    [Test]
     public void Verify_If_Exist_True()
     {
       Hero hero = new Hero()
       {
-        name = "Shogun",
-        isDeleted = false
+        Name = "Shogun",
+        Deleted = false
       };
       List<Hero> listHero = new List<Hero>();
       listHero.Add(hero);
 
       var stubRepo = MockRepository.GenerateStub<IHeroRepository>();
-      stubRepo.Stub(x => x.GetByName(hero.name)).Return(listHero);
+      stubRepo.Stub(x => x.GetByName(hero.Name)).Return(listHero);
 
-      var resultOfSearch = stubRepo.GetByName(hero.name);
+      var resultOfSearch = stubRepo.GetByName(hero.Name);
 
-      Assert.IsTrue(resultOfSearch.Count()>0);
+      Assert.IsTrue(resultOfSearch.Count() > 0);
     }
 
-    [TestMethod]
+    [Test]
     public void Verify_If_Exist_False()
     {
       Hero hero = new Hero()
       {
-        name = "Shogun",
-        isDeleted = false
+        Name = "Shogun",
+        Deleted = false
       };
       List<Hero> listHero = new List<Hero>();
 
       var stubRepo = MockRepository.GenerateStub<IHeroRepository>();
-      stubRepo.Stub(x => x.GetByName(hero.name)).Return(listHero);
+      stubRepo.Stub(x => x.GetByName(hero.Name)).Return(listHero);
 
-      var resultOfSearch = stubRepo.GetByName(hero.name);
+      var resultOfSearch = stubRepo.GetByName(hero.Name);
 
       Assert.IsTrue(resultOfSearch.Count()==0);
     }
